@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: orange;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+.data-content {
+  background-color: #adc4f1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.stock-exchanges {
+  margin-top:35px;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.commodity-exchanges {
+  margin-top:35px;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.news-headline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
